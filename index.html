@@ -14,7 +14,7 @@
   <div id="todo-list">
 
       <ol v-if="lista.length > 0">
-       <li v-for="(item, i) in lista">{{item}} <a href="#"@click="deleteItem(i)" >X</a></li>
+       <li class="bianco" v-for="(item, i) in lista">{{item}} <a href="#"@click="deleteItem(i)" >X</a></li>
      </ol>
 
   <div>
