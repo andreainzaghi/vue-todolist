@@ -6,8 +6,8 @@ var app = new Vue(
     lista: ['Comprare vino', 'Comprare latte', 'Comprare mirtilli']
   },
   methods: {
-    deleteItem: function(itemindex) {
-    this.lista.splice(itemIndex, 1);
+    deleteItem: function(itemIndex) {
+    this.lista.splice(itemIndex,1);
     },
     addItem: function() {
       if (this.newItem !== "") {
