@@ -1,7 +1,7 @@
 var app = new Vue(
 {
   el: "#todo-list",
-   {  data:"",
+    data: {
     newItem: "",
     lista: ['Comprare vino', 'Comprare latte', 'Comprare mirtilli']
   },
